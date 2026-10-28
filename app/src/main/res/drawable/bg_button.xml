@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kumandayla gezinirken seçili düğme açıkça belli olsun -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <solid android:color="#FF2563EB" />
+            <stroke android:width="3dp" android:color="#FFFBBF24" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <solid android:color="#FF1D4ED8" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <solid android:color="#FF1E293B" />
+            <stroke android:width="1dp" android:color="#FF334155" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,15 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+# İmza anahtarı ve şifreleri ASLA depoya girmez
+keystore.properties
+*.jks
+*.keystore
+
+# Derlenmiş APK depoya değil, GitHub Releases sayfasına yüklenir
+app/release/
+*.apk

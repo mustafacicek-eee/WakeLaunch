@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">WakeLaunch</string>
+    <string name="tagline">Opens the app you choose when the TV starts or wakes from standby.</string>
+    <string name="pick_app">Choose app</string>
+    <string name="no_app">No app selected</string>
+    <string name="app_missing">App not found: %1$s</string>
+    <string name="on_boot">Open after power-on (full boot)</string>
+    <string name="on_wake">Open after waking from standby</string>
+    <string name="delay_label">Wake delay: %1$s s</string>
+    <string name="delay_hint">If the home screen covers your app after waking, increase the delay.</string>
+    <string name="overlay_ok">✓ \"Display over other apps\" permission granted</string>
+    <string name="overlay_missing">⚠ \"Display over other apps\" permission missing</string>
+    <string name="overlay_help">Android may block opening apps from the background without it. Try the button below. If your TV has no such screen, grant it from a computer with adb:\nadb shell appops set %1$s SYSTEM_ALERT_WINDOW allow</string>
+    <string name="open_overlay_settings">Open permission settings</string>
+    <string name="overlay_settings_missing">This TV has no settings screen for this permission. Use the adb command shown.</string>
+    <string name="test_now">Test now</string>
+    <string name="pick_first">Choose an app first.</string>
+    <string name="launch_failed">Could not open the app. It may have been uninstalled.</string>
+    <string name="privacy_note">No internet permission. Your choice is stored only on this TV and never leaves it.</string>
+    <string name="notif_channel">Standby watcher</string>
+    <string name="notif_text">Waiting for the TV to wake up</string>
+    <string name="ready">Done! %1$s will open when the TV turns on.</string>
+</resources>

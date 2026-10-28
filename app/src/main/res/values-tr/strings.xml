@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">TV açıldığında veya bekleme modundan çıktığında seçtiğin uygulamayı açar.</string>
+    <string name="pick_app">Uygulama seç</string>
+    <string name="no_app">Uygulama seçilmedi</string>
+    <string name="app_missing">Uygulama bulunamadı: %1$s</string>
+    <string name="on_boot">Tam açılıştan sonra aç</string>
+    <string name="on_wake">Bekleme modundan çıkınca aç</string>
+    <string name="delay_label">Uyanma gecikmesi: %1$s sn</string>
+    <string name="delay_hint">Uyandıktan sonra ana ekran uygulamanın üstüne geliyorsa gecikmeyi artır.</string>
+    <string name="overlay_ok">✓ \"Diğer uygulamaların üzerinde göster\" izni var</string>
+    <string name="overlay_missing">⚠ \"Diğer uygulamaların üzerinde göster\" izni yok</string>
+    <string name="overlay_help">Bu izin olmadan Android, uygulamanın arka plandan açılmasını engelleyebilir. Aşağıdaki düğmeyi dene. TV\'nde böyle bir ekran yoksa izni bilgisayardan adb ile ver:\nadb shell appops set %1$s SYSTEM_ALERT_WINDOW allow</string>
+    <string name="open_overlay_settings">İzin ayarlarını aç</string>
+    <string name="overlay_settings_missing">Bu TV\'de bu izin için ayar ekranı yok. Gösterilen adb komutunu kullan.</string>
+    <string name="test_now">Şimdi test et</string>
+    <string name="pick_first">Önce bir uygulama seç.</string>
+    <string name="launch_failed">Uygulama açılamadı. Kaldırılmış olabilir.</string>
+    <string name="privacy_note">İnternet izni yok. Seçimin sadece bu TV\'de saklanır, hiçbir yere gönderilmez.</string>
+    <string name="notif_channel">Bekleme izleyici</string>
+    <string name="notif_text">TV\'nin uyanması bekleniyor</string>
+    <string name="ready">Hazır! TV açılınca %1$s açılacak.</string>
+</resources>

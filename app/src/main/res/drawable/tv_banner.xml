@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Özgün çizim: kırılan zincir halkaları + oynat işareti -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp" android:height="180dp"
+    android:viewportWidth="320" android:viewportHeight="180">
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="160" android:startY="0"
+                android:endX="160" android:endY="180"
+                android:startColor="#FF0F172A" android:endColor="#FF2563EB"/>
+        </aapt:attr>
+    </path>
+    <group android:scaleX="2" android:scaleY="2" android:translateX="52" android:translateY="-18">
+        <group android:rotation="-30" android:pivotX="54" android:pivotY="54">
+            <!-- Sol halka -->
+            <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+                android:strokeWidth="6"
+                android:pathData="M32,44h6a10,10 0,0 1,0 20h-6a10,10 0,0 1,0 -20z"/>
+            <!-- Sağ halka -->
+            <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+                android:strokeWidth="6"
+                android:pathData="M70,44h6a10,10 0,0 1,0 20h-6a10,10 0,0 1,0 -20z"/>
+            <path android:fillColor="#00000000" android:strokeColor="#FFFBBF24"
+                android:strokeWidth="3" android:strokeLineCap="round"
+                android:pathData="M54,40v-7M54,68v7M47,41l-3,-5M61,67l3,5M61,41l3,-5M47,67l-3,5"/>
+        </group>
+        <path android:fillColor="#FFFBBF24" android:pathData="M50,48l11,6l-11,6z"/>
+    </group>
+</vector>
